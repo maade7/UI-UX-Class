@@ -1,0 +1,71 @@
+nav {
+  height: 50px;
+  background-color: lightgrey;
+}
+
+
+/* target the class of inline-block below */
+.inline-block{
+  display: inline-block;
+  padding: 15px;
+  background-color: gray;
+  height: 100%;
+}
+/* target the class of .left below */
+.left {
+  height: 100vh;
+  float: left;
+  background-color: lightblue;
+  width: 30%;
+  /* text-align: center; */
+  }
+/* target the class of .right below */
+.right {
+  height: 100vh;
+  float: left;
+  background-color: lightgreen;
+  width: 70%;
+  text-align:left;
+  }
+
+  .top{
+    text-align:center;
+    /* border: 2px, solid,grey; */
+    border-radius: 2px;
+    border-bottom: grey;
+  
+  }
+
+.bottom{
+  text-align:left;
+ 
+}
+
+p{
+  padding: 10px;
+}
+
+.card{
+  display:inline-block;
+  background-color:#C6C6C6;
+  border-radius: 5px;
+  height:200px;
+  width:150px;
+  margin:35px;
+  margin-top:50px;
+}
+
+h1 {
+  font-family: helvetica, arial, sans-serif;
+ }
+ .separator {
+   padding: 20px;
+ }
+ .left2 {
+   float: left;
+   padding-right: 15px;
+ }
+ .right2 {
+   float: right;
+   padding-left: 15px;
+ }
